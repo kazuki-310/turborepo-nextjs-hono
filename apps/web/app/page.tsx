@@ -13,7 +13,7 @@ export default function Home() {
 
 async function APIData() {
   const response = await fetch(process.env.HONO_API_URL!, {
-    cache: "force-cache",
+    cache: "no-store",
   });
   const text = await response.text();
 
