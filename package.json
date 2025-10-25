@@ -2,10 +2,10 @@
   "name": "turborepo-nextjs-hono",
   "private": true,
   "scripts": {
-    "dev": "turbo run dev",
-    "lint": "turbo run lint",
+    "dev": "turbo dev studio",
+    "lint": "turbo lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
-    "check-types": "turbo run check-types"
+    "typecheck": "turbo typecheck"
   },
   "devDependencies": {
     "prettier": "^3.6.2",
