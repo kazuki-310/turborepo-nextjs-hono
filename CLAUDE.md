@@ -9,3 +9,7 @@ Next.js 16 + Hono API を使用した Turborepo モノレポプロジェクト�
 ## ディレクトリ構造
 
 詳細なディレクトリ構成については `/docs/directory-structure.md` を参照してください。
+
+## コーディング規約
+
+詳細なコーディング規約については `/docs/coding-standards.md` を参照してください。
